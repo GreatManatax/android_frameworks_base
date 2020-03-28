@@ -15,117 +15,137 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Label for area where tiles can be added to the qs panel -->
-    <string name="drag_or_tap_to_add_tiles">Hold &amp; drag or tap to add tiles</string>
+    <string name="drag_or_tap_to_add_tiles">Presiona y arrastra o pulsa para añadir atajos al panel de ajustes rápidos</string>
+
     <!-- Label for header of customize QS -->
-    <string name="drag_or_tap_to_rearrange_tiles">Hold &amp; drag to rearrange or tap to remove</string>
+    <string name="drag_or_tap_to_rearrange_tiles">Presiona y arrastra para reordenar o pulsa para borrar</string>
+
     <!-- Smartspace -->
     <string name="smartspace_hours_mins">%1$s %2$s</string>
-    <string name="smartspace_now">Now</string>
+    <string name="smartspace_now">Ahora</string>
     <string name="smartspace_pill_text_format">%1$s: %2$s</string>
+
     <!-- Screenshot toast -->
-    <string name="delete_screenshot_toast">Screenshot deleted</string>
+    <string name="delete_screenshot_toast">Captura de pantalla borrada</string>
+  
     <!-- Screen pinning -->
-    <string name="screen_pinning_description_custom">This keeps it in view until you unpin. Touch &amp; hold Back to unpin.</string>
-    <string name="screen_pinning_description_recents_invisible_custom">This keeps it in view until you unpin. Touch &amp; hold Back to unpin.</string>
-    <string name="screen_pinning_description_accessible_custom">This keeps it in view until you unpin. Touch &amp; hold Back to unpin.</string>
-    <string name="screen_pinning_description_recents_invisible_accessible_custom">This keeps it in view until you unpin. Touch &amp; hold Back to unpin.</string>
-    <string name="screen_pinning_toast_custom">To unpin this screen, touch &amp; hold Back button</string>
-    <string name="screen_pinning_toast_recents_invisible_custom">To unpin this screen, touch &amp; hold Back button</string>
+    <string name="screen_pinning_description_custom">Fíjalo en la pantalla hasta que lo desclaves. Toca y manten pulsado para quitar la fijación.</string>
+    <string name="screen_pinning_description_recents_invisible_custom">Fíjalo en la pantalla hasta que lo desclaves. Toca y manten pulsado para quitarla fijación.</string>
+    <string name="screen_pinning_description_accessible_custom">Fíjalo en la pantalla hasta que lo desclaves. Toca y manten pulsado para quitar la fijación.</string>
+    <string name="screen_pinning_description_recents_invisible_accessible_custom">Fíjalo en la pantalla hasta que lo desclaves. Toca y manten pulsado para quitar la fijación.</string>
+    <string name="screen_pinning_toast_custom">Toca y manten pulsado para quitar la fijación</string>
+    <string name="screen_pinning_toast_recents_invisible_custom">Toca y manten pulsado para quitar la fijación.</string>
+
     <!-- Dash charging -->
-    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • Dash charging (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> until full)</string>
-    <string name="keyguard_plugged_in_dash_charging">Dash charging</string>
+    <string name="keyguard_indication_dash_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • Carga rápida (<xliff:g id="charging_time_left" example="4 horas y 2 minutos">%s</xliff:g> para completar)</string>
+    <string name="keyguard_plugged_in_dash_charging">Carga rápida</string>
+
     <!-- Screen record -->
-    <string name="screenrecord_dialog_title">Start recording?</string>
-    <string name="screenrecord_dialog_summary">While recording, Android system can capture any sensitive information that\'s visible on your screen or played on your device. This includes passwords, payment info, photos, messages, and audio.</string>
-    <string name="screenrecord_dialog_start">Start</string>
-    <string name="screenrecord_dialog_cancel">Cancel</string>
-    <string name="screenrecord_audio_title">Record audio</string>
-    <string name="screenrecord_audio_summary">Record audio while recording</string>
-    <string name="screenrecord_taps_title">Show touches on screen</string>
-    <string name="screenrecord_taps_summary">Show visual feedback while recording</string>
-    <string name="screenrecord_stopdot_title">Show stop dot</string>
-    <string name="screenrecord_stopdot_summary">Show a red dot to stop recording with a single tap. Longpress it to move it to the opposite side.</string>
-    <string name="screenrecord_low_quality_title">Low quality</string>
-    <string name="screenrecord_low_quality_summary">Record in a lower quality to save space on your device</string>
+    <string name="screenrecord_dialog_title">Empezar a grabar?</string>
+    <string name="screenrecord_dialog_summary">Mientras grabas, Android puede capturar cualquier información sensible que sea visible en tu pantalla o reproducida en tu teléfono. Esto incluye passwords, datos bancarios, fotos, mensages y audio.</string>
+    <string name="screenrecord_dialog_start">Comenzar</string>
+    <string name="screenrecord_dialog_cancel">Cancelar</string>
+    <string name="screenrecord_audio_title">Grabar audio</string>
+    <string name="screenrecord_audio_summary">Registra el audio mientras grabas</string>
+    <string name="screenrecord_taps_title">Muestra los toques sobre la pantalla</string>
+    <string name="screenrecord_taps_summary">Registra el feedback visual mientras grabas</string>
+    <string name="screenrecord_stopdot_title">Muestra un punto rojo</string>
+    <string name="screenrecord_stopdot_summary">Muestra un punto rojo para detener la grabación tocando una vez. Pulsa de forma larga par moverlo al lado opuesto.</string>
+    <string name="screenrecord_low_quality_title">Calidad baja</string>
+    <string name="screenrecord_low_quality_summary">Graba en calidad baja para ahorrar espacio en tu dispositivo</string>
+
     <!-- Partial screenshot -->
-    <string name="global_screenshot_selector_capture_description">Capture partial screenshot</string>
-    <string name="global_screenshot_selector_cancel_description">Cancel partial screenshot</string>
+    <string name="global_screenshot_selector_capture_description">Captura de pantalla parcial</string>
+    <string name="global_screenshot_selector_cancel_description">Cancela la captura de pantalla parcial</string>
+
     <!-- Icon manager -->
-    <string name="systemui_tuner_icon_manager_title">Icon manager</string>
-    <string name="misc_statusbar_items_category_title">Misc</string>
-    <string name="show_lte_fourgee_title">4G/LTE network icon</string>
-    <string name="show_lte_fourgee_summary">Display either the 4G or LTE network icon in the statusbar/QS panel</string>
+    <string name="systemui_tuner_icon_manager_title">Gestor de iconos</string>
+	<string name="misc_statusbar_items_category_title">Varios</string>
+    <string name="show_lte_fourgee_title">Icono de red 4G/LTE</string>
+    <string name="show_lte_fourgee_summary">Muestra el icono de red 4G o LTE en la barra de estado y el panel de ajustes rápidos</string>
+
     <!-- DU logo -->
-    <string name="du_logo_title">DU swag</string>
-    <string name="du_logo_summary">Let everyone know that you\'re using DU when they see your screen</string>
+    <string name="du_logo_title">Logo DU</string>
+    <string name="du_logo_summary">Deja que todo el mundo sepa que estás usando DU cuando vean tu pantalla</string>
+
     <!-- Power menu item for taking a screenshot [CHAR LIMIT=20]-->
-    <string name="global_action_screenshot_cust">Screenshot</string>
-    <string name="global_action_screenrecord">Screen record</string>
+    <string name="global_action_screenshot_cust">Captura de pantalla</string>
+    <string name="global_action_screenrecord">Grabar pantalla</string>
+
     <!-- Advanced Reboot menu -->
-    <string name="global_action_restart_advanced">Advanced</string>
+    <string name="global_action_restart_advanced">Avanzado</string>
     <string name="global_action_restart_recovery">Recovery</string>
     <string name="global_action_restart_bootloader">Bootloader</string>
-    <string name="global_action_restart_ui">SystemUI</string>
+    <string name="global_action_restart_ui">Interfaz del Sistema</string>
+
     <!-- QS customizer -->
-    <string name="reset_customizer">Reset order</string>
+    <string name="reset_customizer">Resetea el orden</string>
+
     <!-- Navbar -->
-    <string name="systemui_tuner_navbar_title">Layout</string>
-    <string name="navigation_bar_format_title">Navbar format</string>
-    <string name="navigation_bar_inverse_title">Swap buttons</string>
-    <string name="navigation_bar_inverse_summary">Swap the order of recents and back buttons</string>
-    <string name="navigation_bar_accessibility_dpad_left">Cursor left</string>
-    <string name="navigation_bar_accessibility_dpad_right">Cursor right</string>
+    <string name="systemui_tuner_navbar_title">Disposición</string>
+    <string name="navigation_bar_format_title">Formato de barra de navegación</string>
+    <string name="navigation_bar_inverse_title">Intercambiar botones</string>
+    <string name="navigation_bar_inverse_summary">Intercambia el orden de los botones de recientes y retroceso</string>
+    <string name="navigation_bar_accessibility_dpad_left">Cursor izquierdo</string>
+    <string name="navigation_bar_accessibility_dpad_right">Cursor derecho</string>
+
     <!-- Theme tile -->
-    <string name="system_theme_style_title">Theme</string>
-    <string name="system_theme_style_light">Light</string>
-    <string name="system_theme_style_dark">Google dark</string>
-    <string name="system_theme_style_pitchblack">Pitch black</string>
-    <string name="system_theme_style_solarizeddark">Solarized dark</string>
-    <string name="quick_settings_theme_tile_title">Accent</string>
-    <string name="quick_settings_theme_tile_accent_detail_title">Select accent</string>
-    <string name="quick_settings_theme_tile_style_detail_title">Select theme</string>
-    <string name="quick_settings_theme_tile_color_default">Default</string>
-    <string name="quick_settings_theme_tile_color_space">Space</string>
-    <string name="quick_settings_theme_tile_color_purple">Purple</string>
-    <string name="quick_settings_theme_tile_color_orchid">Orchid</string>
-    <string name="quick_settings_theme_tile_color_ocean">Ocean</string>
-    <string name="quick_settings_theme_tile_color_green">Green</string>
-    <string name="quick_settings_theme_tile_color_cinnamon">Cinnamon</string>
-    <string name="quick_settings_theme_tile_color_amber">Amber</string>
-    <string name="quick_settings_theme_tile_color_blue">Blue</string>
-    <string name="quick_settings_theme_tile_color_bluegrey">Blue Grey</string>
-    <string name="quick_settings_theme_tile_color_brown">Brown</string>
-    <string name="quick_settings_theme_tile_color_cyan">Cyan</string>
-    <string name="quick_settings_theme_tile_color_deeporange">Deep Orange</string>
-    <string name="quick_settings_theme_tile_color_deeppurple">Deep Purple</string>
-    <string name="quick_settings_theme_tile_color_grey">Grey</string>
-    <string name="quick_settings_theme_tile_color_indigo">Indigo</string>
-    <string name="quick_settings_theme_tile_color_lightblue">Light Blue</string>
-    <string name="quick_settings_theme_tile_color_lightgreen">Light Green</string>
-    <string name="quick_settings_theme_tile_color_lime">Lime</string>
-    <string name="quick_settings_theme_tile_color_orange">Orange</string>
-    <string name="quick_settings_theme_tile_color_pink">Pink</string>
-    <string name="quick_settings_theme_tile_color_red">Red</string>
-    <string name="quick_settings_theme_tile_color_teal">Teal</string>
-    <string name="quick_settings_theme_tile_color_yellow">Yellow</string>
+    <string name="system_theme_style_title">Tema</string>
+    <string name="system_theme_style_light">Claro</string>
+    <string name="system_theme_style_dark">Oscuro de Google</string>
+    <string name="system_theme_style_pitchblack">Negro fuerte</string>
+    <string name="system_theme_style_solarizeddark">Oscuro solar</string>
+    <string name="quick_settings_theme_tile_title">Acento</string>
+    <string name="quick_settings_theme_tile_accent_detail_title">Selecciona el acento</string>
+    <string name="quick_settings_theme_tile_style_detail_title">Selecciona el tema</string>
+    <string name="quick_settings_theme_tile_color_default">Predeterminado</string>
+    <string name="quick_settings_theme_tile_color_space">Espacio</string>
+    <string name="quick_settings_theme_tile_color_purple">Púrpura</string>
+    <string name="quick_settings_theme_tile_color_orchid">Orquídea</string>
+    <string name="quick_settings_theme_tile_color_ocean">Océano</string>
+    <string name="quick_settings_theme_tile_color_green">Verde</string>
+    <string name="quick_settings_theme_tile_color_cinnamon">Canela</string>
+    <string name="quick_settings_theme_tile_color_amber">Ámbar</string>
+    <string name="quick_settings_theme_tile_color_blue">Azul</string>
+    <string name="quick_settings_theme_tile_color_bluegrey">Azul grisáceo</string>
+    <string name="quick_settings_theme_tile_color_brown">Marrón</string>
+    <string name="quick_settings_theme_tile_color_cyan">Cian</string>
+    <string name="quick_settings_theme_tile_color_deeporange">Naranja oscuro</string>
+    <string name="quick_settings_theme_tile_color_deeppurple">Púrpura oscuro</string>
+    <string name="quick_settings_theme_tile_color_grey">Gris</string>
+    <string name="quick_settings_theme_tile_color_indigo">Índigo</string>
+    <string name="quick_settings_theme_tile_color_lightblue">Azul claro</string>
+    <string name="quick_settings_theme_tile_color_lightgreen">Verde claro</string>
+    <string name="quick_settings_theme_tile_color_lime">Lima</string>
+    <string name="quick_settings_theme_tile_color_orange">Naranja</string>
+    <string name="quick_settings_theme_tile_color_pink">Rosa</string>
+    <string name="quick_settings_theme_tile_color_red">Rojo</string>
+    <string name="quick_settings_theme_tile_color_teal">Verde azulado</string>
+    <string name="quick_settings_theme_tile_color_yellow">Amarillo</string>
+
     <!-- Caffeine tile -->
-    <string name="quick_settings_caffeine_label">Caffeine</string>
+    <string name="quick_settings_caffeine_label">Cafeína</string>
+
     <!-- ADB over Network tile -->
-    <string name="quick_settings_adb_network">ADB over Network</string>
-    <string name="quick_settings_network_adb_enabled_label">ADB over Network</string>
-    <string name="quick_settings_network_adb_disabled_label">ADB over Network</string>
-    <string name="adb_network_forced_tcp_warn">ADB network forced enabled on port: <xliff:g id="port">%1$s</xliff:g></string>
+    <string name="quick_settings_adb_network">ADB por red</string>
+    <string name="quick_settings_network_adb_enabled_label">ADB por red activado</string>
+    <string name="quick_settings_network_adb_disabled_label">ADB por red desactivado</string>
+    <string name="adb_network_forced_tcp_warn">ADB por red activado en el puerto: <xliff:g id="port">%1$s</xliff:g></string>
+
     <!-- Immersive tile -->
-    <string name="quick_settings_immersive_tile">Immersive mode</string>
-    <string name="quick_settings_immersive_tile_statusbar">Immersive statusbar</string>
-    <string name="quick_settings_immersive_tile_navbar">Immersive navbar</string>
-    <string name="quick_settings_immersive_tile_full">Immersive full</string>
+    <string name="quick_settings_immersive_tile">Modo inmersivo</string>
+    <string name="quick_settings_immersive_tile_statusbar">Barra de estado inmersiva</string>
+    <string name="quick_settings_immersive_tile_navbar">Barra de navegación inmersiva</string>
+    <string name="quick_settings_immersive_tile_full">Inmersión completa</string>
+
     <!-- Mono/Stereo tile -->
-    <string name="quick_settings_monotoggle_tile">Audio mode</string>
-    <string name="quick_settings_monotoggle_tile_mono">Mono audio</string>
-    <string name="quick_settings_monotoggle_tile_stereo">Stereo audio</string>
+    <string name="quick_settings_monotoggle_tile">Modo de audio</string>
+    <string name="quick_settings_monotoggle_tile_mono">Audio mono</string>
+    <string name="quick_settings_monotoggle_tile_stereo">Audio estéreo</string>
+
     <!-- Long swipe gesture actions -->
-    <string name="app_picker_dialog_title">Select an app</string>
-    <string name="recents_app_killed">App killed</string>
-    <string name="nope_cant_kill">Launcher cannot be killed</string>
+    <string name="app_picker_dialog_title">Selecciona una aplicación</string>
+    <string name="recents_app_killed">Aplicación matada</string>
+    <string name="nope_cant_kill">El lanzador no se puede matar</string>
+
 </resources>
